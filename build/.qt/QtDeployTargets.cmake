@@ -1,0 +1,5 @@
+set(__QT_DEPLOY_TARGETS "system-resource-monitor;unit_tests")
+set(__QT_DEPLOY_TARGET_system-resource-monitor_FILE /home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor)
+set(__QT_DEPLOY_TARGET_system-resource-monitor_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_unit_tests_FILE /home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests)
+set(__QT_DEPLOY_TARGET_unit_tests_TYPE EXECUTABLE)
