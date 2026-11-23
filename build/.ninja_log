@@ -1,169 +1,64 @@
 # ninja log v7
-6	46	1795344286107111297	unit_tests_autogen/timestamp	886b6a04bb5290dc
-6	46	1795344286107111297	unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-6	46	1795344286107111297	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/timestamp	886b6a04bb5290dc
-6	46	1795344286107111297	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-86	172	1795336158638666024	CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o	2696699305b80573
-87	2776	1795336158640666060	CMakeFiles/unit_tests.dir/src/core/FileUtil.cpp.o	5b6fdc3f0f358199
-92	5135	1795336158644666131	CMakeFiles/unit_tests.dir/src/core/MetricMath.cpp.o	61800721783abdd6
-4018	7292	1795344290118856871	CMakeFiles/unit_tests.dir/src/monitors/MemoryMonitor.cpp.o	ec6e6cc9a8d3e30
-5	7246	1795344293301661131	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-5	7246	1795344293301661131	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-5	7246	1795344293301661131	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-5	7246	1795344293301661131	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-1292	5030	1795344287393028842	CMakeFiles/unit_tests.dir/src/monitors/CpuMonitor.cpp.o	1e13a7be0de75ef2
-5228	6635	1795336163780757166	CMakeFiles/system-resource-monitor.dir/src/core/FileUtil.cpp.o	5d0d20eecb3edacb
-47	5617	1795344286148108662	CMakeFiles/unit_tests.dir/tests/test_parsers.cpp.o	7edd8897a8ccfbe8
-5030	8725	1795344291130794050	CMakeFiles/unit_tests.dir/src/monitors/NetworkMonitor.cpp.o	98367849ecc4b054
-6635	10380	1795336165187782015	CMakeFiles/system-resource-monitor.dir/src/core/MetricMath.cpp.o	255e91242983de9b
-5136	14144	1795336163688755540	CMakeFiles/system-resource-monitor.dir/src/main.cpp.o	20cfe16dc6858406
-4722	17073	1795336163274748220	CMakeFiles/system-resource-monitor.dir/system-resource-monitor_autogen/mocs_compilation.cpp.o	c3a8cf8cbec108e8
-9547	12737	1795344295647520252	CMakeFiles/system-resource-monitor.dir/src/core/DataCollector.cpp.o	aed708c042f9ddd7
-12737	16392	1795344298837333246	CMakeFiles/system-resource-monitor.dir/src/monitors/CpuMonitor.cpp.o	fe206925001a75f4
-10801	16617	1795344296901446086	CMakeFiles/system-resource-monitor.dir/src/core/SystemMonitor.cpp.o	d8d6056cc2c63b52
-14007	16545	1795344300108260195	CMakeFiles/system-resource-monitor.dir/src/monitors/MemoryMonitor.cpp.o	e08cf041bc7956f
-17073	23813	1795336175625965159	CMakeFiles/system-resource-monitor.dir/src/monitors/NetworkMonitor.cpp.o	5443ae489385ad9a
-19270	28749	1795336177823003442	CMakeFiles/system-resource-monitor.dir/src/ui/MetricCard.cpp.o	e30810abc851d315
-23813	32746	1795336182366082310	CMakeFiles/system-resource-monitor.dir/src/ui/SettingsPage.cpp.o	51149834d4bc8256
-17471	30671	1795336176023972103	CMakeFiles/system-resource-monitor.dir/src/ui/MainWindow.cpp.o	372503baee6b1919
-15980	32603	1795336174532946079	CMakeFiles/system-resource-monitor.dir/src/monitors/DiskMonitor.cpp.o	efb78b37f676fa2f
-4425	17051	1795344290525831578	CMakeFiles/unit_tests.dir/src/monitors/DiskMonitor.cpp.o	e6bb6b8c3b707f61
-23896	25258	1795336182449083747	unit_tests	c7e696823446fc84
-17866	30317	1795336176418978987	CMakeFiles/system-resource-monitor.dir/src/ui/Dashboard.cpp.o	bab225d3b0a36e36
-32746	33450	1795336191299236262	system-resource-monitor	c2d15200451ca9a4
-4	20	1795336158526664033	CMakeFiles/clean.additional	4f1486b7750b057f
-20	27	1795336158542664318	clean	7adf74806070bde8
-51	1292	1795344286152108405	CMakeFiles/unit_tests.dir/src/core/MetricHistory.cpp.o	d7376f2071a1223c
-47	4018	1795344286148720614	CMakeFiles/unit_tests.dir/tests/test_hardware.cpp.o	82b5d3d8fe854a77
-47	4425	1795344286149238121	CMakeFiles/unit_tests.dir/tests/test_process.cpp.o	5a6ac397e4085290
-50	6919	1795344286151108469	CMakeFiles/unit_tests.dir/tests/test_database.cpp.o	665af05d9b00f478
-6919	8154	1795344293019678209	CMakeFiles/unit_tests.dir/src/process/ProcessInfo.cpp.o	17f366c605acbf0c
-8725	9547	1795344294825569267	CMakeFiles/system-resource-monitor.dir/src/core/MetricHistory.cpp.o	fc8896018f2aeaeb
-7248	10801	1795344293348658285	CMakeFiles/unit_tests.dir/src/database/DatabaseRepository.cpp.o	7e6f6dbbd8a0455c
-5618	14007	1795344291718757822	CMakeFiles/unit_tests.dir/src/hardware/HardwareService.cpp.o	65564ded225963f4
-6	50	1795344324022668777	unit_tests_autogen/timestamp	886b6a04bb5290dc
-6	50	1795344324022668777	unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-6	50	1795344324022668777	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/timestamp	886b6a04bb5290dc
-6	50	1795344324022668777	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-6	415	1795344324417017352	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-6	415	1795344324417017352	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-6	415	1795344324417017352	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-6	415	1795344324417017352	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-50	508	1795344324066033238	unit_tests	71a1be5677950721
-416	4908	1795344324433067279	CMakeFiles/system-resource-monitor.dir/src/database/DatabaseRepository.cpp.o	230254551fdf3f1c
-416	5097	1795344324432721560	CMakeFiles/system-resource-monitor.dir/src/monitors/NetworkMonitor.cpp.o	5443ae489385ad9a
-5098	6507	1795344329113809646	CMakeFiles/system-resource-monitor.dir/src/process/ProcessInfo.cpp.o	3aa69461543606cc
-508	8422	1795344324524012509	CMakeFiles/system-resource-monitor.dir/src/database/DatabaseManager.cpp.o	b2aab8868fac786c
-415	11224	1795344324432159494	CMakeFiles/system-resource-monitor.dir/src/main.cpp.o	20cfe16dc6858406
-416	12155	1795344324432362741	CMakeFiles/system-resource-monitor.dir/src/monitors/DiskMonitor.cpp.o	efb78b37f676fa2f
-6508	15567	1795344330523749309	CMakeFiles/system-resource-monitor.dir/src/process/ProcessService.cpp.o	2e7d0cf445d64e47
-8422	15661	1795344332437668801	CMakeFiles/system-resource-monitor.dir/src/process/ProcessWorker.cpp.o	1a896b7ada43f144
-4908	17122	1795344328923817843	CMakeFiles/system-resource-monitor.dir/src/hardware/HardwareService.cpp.o	38078c0a70beb37b
-415	18228	1795344324431016718	CMakeFiles/system-resource-monitor.dir/system-resource-monitor_autogen/mocs_compilation.cpp.o	c3a8cf8cbec108e8
-11224	22033	1795344335239553897	CMakeFiles/system-resource-monitor.dir/src/services/ConfigManager.cpp.o	79a3e12a10140699
-15567	23790	1795344339583382691	CMakeFiles/system-resource-monitor.dir/src/services/ApplicationServices.cpp.o	d8399b6c65c2d517
-6	65	1795344362976599115	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-6	65	1795344362976599115	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-6	65	1795344362976599115	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-6	65	1795344362976599115	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-67	4198	1795344363038916337	CMakeFiles/system-resource-monitor.dir/src/ui/FormatUtils.cpp.o	18d2d7ea5d45d707
-67	7472	1795344363038707470	CMakeFiles/system-resource-monitor.dir/src/ui/ChartUtils.cpp.o	ecc2e5b2e0945d6e
-66	8503	1795344363037976426	CMakeFiles/system-resource-monitor.dir/src/ui/MonitoringPage.cpp.o	5a3242fc140a25b5
-8	360	1795344393041910583	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-8	360	1795344393041910583	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-8	360	1795344393041910583	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-8	360	1795344393041910583	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-361	8821	1795344393060001959	CMakeFiles/system-resource-monitor.dir/src/services/ApplicationServices.cpp.o	d8399b6c65c2d517
-362	8948	1795344393061159243	CMakeFiles/system-resource-monitor.dir/src/ui/Dashboard.cpp.o	bab225d3b0a36e36
-361	9486	1795344393059821629	CMakeFiles/system-resource-monitor.dir/src/services/HistoryService.cpp.o	c8ed7b3105bb3fd9
-363	10768	1795344393061386999	CMakeFiles/system-resource-monitor.dir/src/ui/SettingsPage.cpp.o	51149834d4bc8256
-361	13360	1795344393060251493	CMakeFiles/system-resource-monitor.dir/src/ui/MainWindow.cpp.o	372503baee6b1919
-8821	14947	1795344401518776174	CMakeFiles/system-resource-monitor.dir/src/ui/PlaceholderPage.cpp.o	a74c8433d24e5544
-361	16128	1795344393058910291	CMakeFiles/system-resource-monitor.dir/system-resource-monitor_autogen/mocs_compilation.cpp.o	c3a8cf8cbec108e8
-8948	17616	1795344401645774346	CMakeFiles/system-resource-monitor.dir/src/ui/HardwarePage.cpp.o	65169daca388f93a
-9487	18314	1795344402184766651	CMakeFiles/system-resource-monitor.dir/src/ui/ProcessPage.cpp.o	a62265a6b0f98605
-7	68	1795344431929491278	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-7	68	1795344431929491278	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-7	68	1795344431929491278	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-7	68	1795344431929491278	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-69	5046	1795344431991490988	CMakeFiles/system-resource-monitor.dir/src/ui/AnalyticsPage.cpp.o	6d0e501adca4ffd2
-5047	5895	1795344436969472230	system-resource-monitor	f8efe801ab0c73d
-8	51	1795344526073653398	unit_tests_autogen/timestamp	886b6a04bb5290dc
-8	51	1795344526073653398	unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-8	51	1795344526073653398	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/timestamp	886b6a04bb5290dc
-8	51	1795344526073653398	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-8	75	1795344526073263122	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-8	75	1795344526073263122	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-8	75	1795344526073263122	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-8	75	1795344526073263122	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-51	2319	1795344526116263963	CMakeFiles/unit_tests.dir/tests/test_process.cpp.o	5a6ac397e4085290
-75	3978	1795344526140264433	CMakeFiles/system-resource-monitor.dir/src/hardware/HardwareService.cpp.o	38078c0a70beb37b
-51	4471	1795344526117271611	CMakeFiles/unit_tests.dir/src/hardware/HardwareService.cpp.o	65564ded225963f4
-4471	4891	1795344530535352094	unit_tests	71a1be5677950721
-3979	4900	1795344530043342060	system-resource-monitor	f8efe801ab0c73d
-47	1472	1795344604704383842	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-47	1472	1795344604704383842	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-47	1472	1795344604704383842	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-47	1472	1795344604704383842	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-1475	20166	1795344604776386269	CMakeFiles/system-resource-monitor.dir/src/ui/SettingsPage.cpp.o	51149834d4bc8256
-1473	22981	1795344604774386202	CMakeFiles/system-resource-monitor.dir/system-resource-monitor_autogen/mocs_compilation.cpp.o	c3a8cf8cbec108e8
-1473	25117	1795344604776244013	CMakeFiles/system-resource-monitor.dir/src/ui/MainWindow.cpp.o	372503baee6b1919
-25118	29228	1795344628420226350	system-resource-monitor	f8efe801ab0c73d
-34	197	1795344753428827314	CMakeFiles/clean.additional	4f1486b7750b057f
-197	285	1795344753591835665	clean	7adf74806070bde8
-15	302	1795344753914852212	unit_tests_autogen/timestamp	886b6a04bb5290dc
-15	302	1795344753914852212	unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-15	302	1795344753914852212	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/timestamp	886b6a04bb5290dc
-15	302	1795344753914852212	/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/mocs_compilation.cpp	886b6a04bb5290dc
-302	440	1795344753987855952	CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o	2696699305b80573
-440	5457	1795344754125863032	CMakeFiles/unit_tests.dir/src/core/FileUtil.cpp.o	5b6fdc3f0f358199
-308	12182	1795344753993856259	CMakeFiles/unit_tests.dir/tests/test_hardware.cpp.o	82b5d3d8fe854a77
-12184	14496	1795344765869471129	CMakeFiles/unit_tests.dir/src/core/MetricHistory.cpp.o	d7376f2071a1223c
-308	15024	1795344753994700886	CMakeFiles/unit_tests.dir/tests/test_process.cpp.o	5a6ac397e4085290
-5457	17607	1795344759143121406	CMakeFiles/unit_tests.dir/src/core/MetricMath.cpp.o	61800721783abdd6
-14	22493	1795344776124011446	system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-14	22493	1795344776124011446	system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-14	22493	1795344776124011446	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/timestamp	11d3fdcfb51e7b1a
-14	22493	1795344776124011446	/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	11d3fdcfb51e7b1a
-15024	22506	1795344768709619928	CMakeFiles/unit_tests.dir/src/monitors/MemoryMonitor.cpp.o	ec6e6cc9a8d3e30
-306	22542	1795344753991856157	CMakeFiles/unit_tests.dir/tests/test_parsers.cpp.o	7edd8897a8ccfbe8
-311	22712	1795344753996856413	CMakeFiles/unit_tests.dir/tests/test_database.cpp.o	665af05d9b00f478
-14497	23119	1795344768182592265	CMakeFiles/unit_tests.dir/src/monitors/CpuMonitor.cpp.o	1e13a7be0de75ef2
-22542	24127	1795344776228016972	CMakeFiles/unit_tests.dir/src/process/ProcessInfo.cpp.o	17f366c605acbf0c
-22497	27639	1795344776183014581	CMakeFiles/unit_tests.dir/src/monitors/NetworkMonitor.cpp.o	98367849ecc4b054
-22712	28159	1795344776398026005	CMakeFiles/unit_tests.dir/src/database/DatabaseRepository.cpp.o	7e6f6dbbd8a0455c
-27639	31205	1795344781325288715	CMakeFiles/system-resource-monitor.dir/src/core/FileUtil.cpp.o	5d0d20eecb3edacb
-31205	33231	1795344784890479977	CMakeFiles/system-resource-monitor.dir/src/core/MetricHistory.cpp.o	fc8896018f2aeaeb
-28159	33718	1795344781845316549	CMakeFiles/system-resource-monitor.dir/src/core/MetricMath.cpp.o	255e91242983de9b
-33232	39709	1795344786917589162	CMakeFiles/system-resource-monitor.dir/src/core/DataCollector.cpp.o	aed708c042f9ddd7
-22506	41999	1795344776192015059	CMakeFiles/unit_tests.dir/src/hardware/HardwareService.cpp.o	65564ded225963f4
-17607	42420	1795344771292755830	CMakeFiles/unit_tests.dir/src/monitors/DiskMonitor.cpp.o	e6bb6b8c3b707f61
-23120	44927	1795344776806047684	CMakeFiles/system-resource-monitor.dir/system-resource-monitor_autogen/mocs_compilation.cpp.o	c3a8cf8cbec108e8
-42000	45247	1795344795686065026	CMakeFiles/system-resource-monitor.dir/src/monitors/MemoryMonitor.cpp.o	e08cf041bc7956f
-33718	45744	1795344787403615393	CMakeFiles/system-resource-monitor.dir/src/core/SystemMonitor.cpp.o	d8d6056cc2c63b52
-24128	46086	1795344777814101309	CMakeFiles/system-resource-monitor.dir/src/main.cpp.o	20cfe16dc6858406
-39709	46106	1795344793394940137	CMakeFiles/system-resource-monitor.dir/src/monitors/CpuMonitor.cpp.o	fe206925001a75f4
-46106	47774	1795344799792289819	CMakeFiles/system-resource-monitor.dir/src/process/ProcessInfo.cpp.o	3aa69461543606cc
-44927	49336	1795344798613225148	CMakeFiles/system-resource-monitor.dir/src/monitors/NetworkMonitor.cpp.o	5443ae489385ad9a
-45247	49554	1795344798933242686	CMakeFiles/system-resource-monitor.dir/src/database/DatabaseRepository.cpp.o	230254551fdf3f1c
-45744	55958	1795344799430269954	CMakeFiles/system-resource-monitor.dir/src/database/DatabaseManager.cpp.o	b2aab8868fac786c
-46086	57993	1795344799772288722	CMakeFiles/system-resource-monitor.dir/src/hardware/HardwareService.cpp.o	38078c0a70beb37b
-49336	58186	1795344803021467451	CMakeFiles/system-resource-monitor.dir/src/process/ProcessWorker.cpp.o	1a896b7ada43f144
-47774	59357	1795344801459381435	CMakeFiles/system-resource-monitor.dir/src/process/ProcessService.cpp.o	2e7d0cf445d64e47
-49555	60544	1795344803240479532	CMakeFiles/system-resource-monitor.dir/src/services/ConfigManager.cpp.o	79a3e12a10140699
-42420	61345	1795344796106087960	CMakeFiles/system-resource-monitor.dir/src/monitors/DiskMonitor.cpp.o	efb78b37f676fa2f
-55958	67089	1795344809643834073	CMakeFiles/system-resource-monitor.dir/src/services/HistoryService.cpp.o	c8ed7b3105bb3fd9
-57993	69950	1795344811678947352	CMakeFiles/system-resource-monitor.dir/src/services/ApplicationServices.cpp.o	d8399b6c65c2d517
-60544	70041	1795344814230089757	CMakeFiles/system-resource-monitor.dir/src/ui/MonitoringPage.cpp.o	5a3242fc140a25b5
-61345	72626	1795344815031134559	CMakeFiles/system-resource-monitor.dir/src/ui/MetricCard.cpp.o	e30810abc851d315
-59357	73026	1795344813043023434	CMakeFiles/system-resource-monitor.dir/src/ui/Dashboard.cpp.o	bab225d3b0a36e36
-58186	75384	1795344811872958163	CMakeFiles/system-resource-monitor.dir/src/ui/MainWindow.cpp.o	372503baee6b1919
-69952	75906	1795344823637618701	CMakeFiles/system-resource-monitor.dir/src/ui/FormatUtils.cpp.o	18d2d7ea5d45d707
-67089	79348	1795344820774457090	CMakeFiles/system-resource-monitor.dir/src/ui/ChartUtils.cpp.o	ecc2e5b2e0945d6e
-72627	82023	1795344826312770185	CMakeFiles/system-resource-monitor.dir/src/ui/PlaceholderPage.cpp.o	a74c8433d24e5544
-79348	82599	1795344833034152833	unit_tests	71a1be5677950721
-70042	83030	1795344823727623789	CMakeFiles/system-resource-monitor.dir/src/ui/SettingsPage.cpp.o	51149834d4bc8256
-73026	83447	1795344826711792820	CMakeFiles/system-resource-monitor.dir/src/ui/HardwarePage.cpp.o	65169daca388f93a
-75384	85005	1795344829069926795	CMakeFiles/system-resource-monitor.dir/src/ui/ProcessPage.cpp.o	a62265a6b0f98605
-75906	87614	1795344829591956509	CMakeFiles/system-resource-monitor.dir/src/ui/AnalyticsPage.cpp.o	6d0e501adca4ffd2
-87614	93746	1795344841299627319	system-resource-monitor	f8efe801ab0c73d
+8	76	1795417107044342425	unit_tests_autogen/timestamp	6da5be296ad76274
+8	76	1795417107044342425	unit_tests_autogen/mocs_compilation.cpp	6da5be296ad76274
+8	76	1795417107044342425	/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests_autogen/timestamp	6da5be296ad76274
+8	76	1795417107044342425	/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests_autogen/mocs_compilation.cpp	6da5be296ad76274
+76	109	1795417107067342719	CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o	c6251ab1da51d31
+109	5117	1795417107100343141	CMakeFiles/unit_tests.dir/tests/test_process.cpp.o	3294b4b925a0ccaa
+77	5866	1795417107069438394	CMakeFiles/unit_tests.dir/tests/test_hardware.cpp.o	fe5b53e1a6db3d1f
+6991	8653	1795417113983431183	CMakeFiles/unit_tests.dir/src/core/FileUtil.cpp.o	213d390a4dd273d4
+76	7083	1795417107068922891	CMakeFiles/unit_tests.dir/tests/test_parsers.cpp.o	9eb8d6e46465ad18
+8653	9412	1795417115644452445	CMakeFiles/unit_tests.dir/src/core/MetricHistory.cpp.o	5ffdd82a0868d0b5
+7	6989	1795417113919430364	system-resource-monitor_autogen/timestamp	b7143790cfafd4bb
+7	6989	1795417113919430364	system-resource-monitor_autogen/mocs_compilation.cpp	b7143790cfafd4bb
+7	6989	1795417113919430364	/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/system-resource-monitor_autogen/timestamp	b7143790cfafd4bb
+7	6989	1795417113919430364	/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp	b7143790cfafd4bb
+7083	9842	1795417114074432348	CMakeFiles/unit_tests.dir/src/core/MetricMath.cpp.o	6217cb0d7f0695c0
+5117	11026	1795417112108407190	CMakeFiles/unit_tests.dir/tests/test_database.cpp.o	5e325b26a0de8219
+9842	12622	1795417116833467668	CMakeFiles/unit_tests.dir/src/monitors/MemoryMonitor.cpp.o	48af77381729d180
+9412	12669	1795417116403462163	CMakeFiles/unit_tests.dir/src/monitors/CpuMonitor.cpp.o	430ef0dce32270a1
+16130	17438	1795417123121779717	CMakeFiles/unit_tests.dir/src/process/ProcessInfo.cpp.o	8ef50b11751ae9b0
+11504	14639	1795417118495488953	CMakeFiles/unit_tests.dir/src/monitors/NetworkMonitor.cpp.o	13021ec38bf684a1
+16313	19456	1795417123304550572	CMakeFiles/unit_tests.dir/src/database/DatabaseRepository.cpp.o	eb0555d6f534d53a
+14639	22986	1795417121630529117	CMakeFiles/unit_tests.dir/src/hardware/HardwareService.cpp.o	da760f7487d15572
+22986	25071	1795417129977636154	CMakeFiles/system-resource-monitor.dir/src/core/FileUtil.cpp.o	c43ca0327582b21d
+11026	23873	1795417118017482830	CMakeFiles/unit_tests.dir/src/monitors/DiskMonitor.cpp.o	82d4262d63793a31
+23873	26406	1795417130865647550	CMakeFiles/system-resource-monitor.dir/src/core/MetricMath.cpp.o	d8fec9429bece562
+25071	26095	1795417132062662914	CMakeFiles/system-resource-monitor.dir/src/core/MetricHistory.cpp.o	3cf161f36920b612
+26095	30185	1795417133086676060	CMakeFiles/system-resource-monitor.dir/src/core/DataCollector.cpp.o	40868a651b1539cb
+17438	31310	1795417124429564994	CMakeFiles/system-resource-monitor.dir/system-resource-monitor_autogen/mocs_compilation.cpp.o	84bb99f9a75f5be8
+19456	30081	1795417126447590870	CMakeFiles/system-resource-monitor.dir/src/main.cpp.o	421d922237952667
+26406	31862	1795417133397680053	CMakeFiles/system-resource-monitor.dir/src/core/SystemMonitor.cpp.o	4497f84e297ab22
+30185	32949	1795417137176728587	CMakeFiles/system-resource-monitor.dir/src/monitors/MemoryMonitor.cpp.o	98ac3565670b3a70
+30081	34162	1795417137072727250	CMakeFiles/system-resource-monitor.dir/src/monitors/CpuMonitor.cpp.o	554c0ac525214343
+31862	35899	1795417138854750146	CMakeFiles/system-resource-monitor.dir/src/monitors/NetworkMonitor.cpp.o	1e941a13334420d5
+35899	39568	1795417142890802027	CMakeFiles/system-resource-monitor.dir/src/database/DatabaseRepository.cpp.o	944f31c767ff41f
+39568	41102	1795417146559849218	CMakeFiles/system-resource-monitor.dir/src/process/ProcessInfo.cpp.o	7fedbbc99346b827
+36739	43865	1795417143730812828	CMakeFiles/system-resource-monitor.dir/src/database/DatabaseManager.cpp.o	e542a4988ad3bd73
+31310	44002	1795417138301743041	CMakeFiles/system-resource-monitor.dir/src/monitors/DiskMonitor.cpp.o	25f40133d73df480
+41102	49207	1795417148093868956	CMakeFiles/system-resource-monitor.dir/src/process/ProcessService.cpp.o	2e4343c499cf1ae7
+38318	46967	1795417145309833137	CMakeFiles/system-resource-monitor.dir/src/hardware/HardwareService.cpp.o	c9a07cc9d34528ee
+43865	50560	1795417150856904520	CMakeFiles/system-resource-monitor.dir/src/process/ProcessWorker.cpp.o	ec839012f53881d
+44002	52212	1795417150993906284	CMakeFiles/system-resource-monitor.dir/src/services/ConfigManager.cpp.o	cb415e23b68b2aa0
+46967	54497	1795417153958944466	CMakeFiles/system-resource-monitor.dir/src/services/HistoryService.cpp.o	ef5e48fab0a3fd5d
+49208	59528	1795417156199973336	CMakeFiles/system-resource-monitor.dir/src/services/ApplicationServices.cpp.o	8be99fc48cb40eb9
+50560	61913	1795417157551990758	CMakeFiles/system-resource-monitor.dir/src/ui/MainWindow.cpp.o	d9f2cb3ac10c3597
+52212	60263	1795417159204012051	CMakeFiles/system-resource-monitor.dir/src/ui/Dashboard.cpp.o	eaf15e11b716a7c3
+61914	65294	1795417168906137207	CMakeFiles/system-resource-monitor.dir/src/ui/FormatUtils.cpp.o	93727dd295b389a4
+54497	62918	1795417161489041511	CMakeFiles/system-resource-monitor.dir/src/ui/MonitoringPage.cpp.o	29ef58fac4a6ebd8
+59528	67140	1795417166520106411	CMakeFiles/system-resource-monitor.dir/src/ui/MetricCard.cpp.o	2239d7a6e79ce660
+60263	68413	1795417167255115896	CMakeFiles/system-resource-monitor.dir/src/ui/ChartUtils.cpp.o	da35b4c8199913c0
+65295	72109	1795417172287180864	CMakeFiles/system-resource-monitor.dir/src/ui/PlaceholderPage.cpp.o	8480f2fc519c0aa1
+62919	72983	1795417169911150182	CMakeFiles/system-resource-monitor.dir/src/ui/SettingsPage.cpp.o	5ee376a3ce551719
+72983	73793	1795417179975280217	unit_tests	2221b4c95176dc26
+67140	75157	1795417174132204697	CMakeFiles/system-resource-monitor.dir/src/ui/HardwarePage.cpp.o	78fd9e18b272a6f2
+68413	77037	1795417175405221145	CMakeFiles/system-resource-monitor.dir/src/ui/ProcessPage.cpp.o	d6bad0c2d77bd3ba
+72109	79838	1795417179101268917	CMakeFiles/system-resource-monitor.dir/src/ui/AnalyticsPage.cpp.o	7d7a27f89deb62cc
+79838	80821	1795417186829368885	system-resource-monitor	eb7e9f50212b8059
+5867	11504	1795417112858416787	CMakeFiles/unit_tests.dir/tests/test_sensors.cpp.o	6517b343548e3e8a
+12623	16313	1795417119614503287	CMakeFiles/unit_tests.dir/src/monitors/TemperatureMonitor.cpp.o	245bb55dcc21745e
+12669	16130	1795417119660503876	CMakeFiles/unit_tests.dir/src/monitors/BatteryMonitor.cpp.o	81a5f7cfd1e7d862
+32949	36738	1795417139940764103	CMakeFiles/system-resource-monitor.dir/src/monitors/TemperatureMonitor.cpp.o	d77d544cff5e389f
+34162	38318	1795417141153779695	CMakeFiles/system-resource-monitor.dir/src/monitors/BatteryMonitor.cpp.o	d7186c93b5b663bd
+4	43	1795417106937341057	CMakeFiles/clean.additional	4f1486b7750b057f
+43	55	1795417106976467882	clean	7adf74806070bde8

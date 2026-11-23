@@ -7,21 +7,22 @@ A real-time Linux system monitor and all-in-one utility built with C++20, Qt 6 W
 ### Implemented (v2 MVP)
 
 - Real-time CPU, memory, disk, and network monitoring from `/proc` and `/sys`
+- Temperature sensors from thermal zones and hwmon, plus battery capacity/status from sysfs
 - Dark/light dashboard with metric cards and live charts (60 samples)
-- Detailed monitoring page with CPU, memory, disk, and network history
+- Detailed monitoring page with CPU, memory, disk, network, temperature, and battery history
 - Process manager: search, sort, detail view, SIGTERM/SIGKILL with confirmation and
   PID-reuse protection
 - Hardware information: processor, system, memory, graphics, storage, motherboard, and
   battery with availability status and data source
 - SQLite performance history with configurable retention (default 7 days)
 - Analytics page: 1h/6h/12h/24h/7d/custom ranges, min/max/avg statistics, CSV/JSON export
-- Settings stored in SQLite (`app_settings`), collector enable/disable, update interval,
-  theme, and network speed unit
+- Settings stored in SQLite (`app_settings`), collector enable/disable (including temperature
+  and battery), update interval, theme, and network speed unit
 - Background worker threads for monitoring, process scanning, and database access
 
 ### Planned
 
-- GPU and temperature monitoring, system management (systemd/startup), benchmark,
+- GPU utilization/VRAM details, system management (systemd/startup), benchmark,
   smart alerts, and PDF reporting
 
 ## Requirements
@@ -62,7 +63,8 @@ ctest --test-dir build --output-on-failure
 ```
 
 The tests cover `/proc` parsers, metric math, hardware parsers, process stat parsing,
-SQLite schema/queries/retention/export, and settings round-trips.
+temperature/battery parsers and sysfs discovery, SQLite schema/queries/retention/export,
+and settings round-trips.
 
 ## Database
 

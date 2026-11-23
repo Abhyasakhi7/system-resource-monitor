@@ -6,7 +6,8 @@ namespace srm {
 
 DataCollector::DataCollector(const CollectorPaths& paths, const CollectorConfig& config)
     : cpu_(paths.statPath), memory_(paths.meminfoPath), disk_(paths.diskstatsPath),
-      network_(paths.netDevPath), config_(config) {}
+      network_(paths.netDevPath), temperature_(paths.thermalRoot, paths.hwmonRoot),
+      battery_(paths.powerSupplyRoot), config_(config) {}
 
 SystemMetricsSnapshot DataCollector::collect() {
     SystemMetricsSnapshot snapshot;
@@ -31,6 +32,16 @@ SystemMetricsSnapshot DataCollector::collect() {
     if (config_.network) {
         snapshot.networkAvailable = network_.refresh();
         snapshot.network = network_.metrics();
+    }
+
+    if (config_.temperature) {
+        snapshot.temperatureAvailable = temperature_.refresh();
+        snapshot.temperature = temperature_.metrics();
+    }
+
+    if (config_.battery) {
+        snapshot.batteryAvailable = battery_.refresh();
+        snapshot.battery = battery_.metrics();
     }
 
     return snapshot;

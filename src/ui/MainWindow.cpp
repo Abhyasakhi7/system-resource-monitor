@@ -109,6 +109,10 @@ void MainWindow::connectServices() {
                 &MainWindow::applyConfig);
         connect(config, &ConfigManager::collectorNetworkChanged, this,
                 &MainWindow::applyConfig);
+        connect(config, &ConfigManager::collectorTemperatureChanged, this,
+                &MainWindow::applyConfig);
+        connect(config, &ConfigManager::collectorBatteryChanged, this,
+                &MainWindow::applyConfig);
         connect(config, &ConfigManager::networkUnitChanged, this, &MainWindow::applyConfig);
     }
 
@@ -132,7 +136,8 @@ void MainWindow::applyConfig() {
         QMetaObject::invokeMethod(
             services_->monitor(), "setCollectorEnabled", Qt::QueuedConnection,
             Q_ARG(bool, config->collectorCpu()), Q_ARG(bool, config->collectorMemory()),
-            Q_ARG(bool, config->collectorDisk()), Q_ARG(bool, config->collectorNetwork()));
+            Q_ARG(bool, config->collectorDisk()), Q_ARG(bool, config->collectorNetwork()),
+            Q_ARG(bool, config->collectorTemperature()), Q_ARG(bool, config->collectorBattery()));
     }
 
     if (dashboard_ != nullptr) {

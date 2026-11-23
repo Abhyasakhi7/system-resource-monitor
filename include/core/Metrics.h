@@ -54,6 +54,22 @@ struct NetworkMetrics {
     std::optional<double> totalTxBytesPerSec;
 };
 
+struct TemperatureSensorMetrics {
+    std::string name;
+    std::optional<double> celsius;
+};
+
+struct TemperatureMetrics {
+    std::vector<TemperatureSensorMetrics> sensors;
+};
+
+struct BatteryMetrics {
+    std::string name;
+    std::optional<int> capacityPercent;
+    std::string status;
+    std::string health;
+};
+
 struct SystemMetricsSnapshot {
     TimePoint timestamp;
     WallTimePoint wallTimestamp;
@@ -61,10 +77,14 @@ struct SystemMetricsSnapshot {
     MemoryMetrics memory;
     DiskMetrics disk;
     NetworkMetrics network;
+    TemperatureMetrics temperature;
+    BatteryMetrics battery;
     bool cpuAvailable{false};
     bool memoryAvailable{false};
     bool diskAvailable{false};
     bool networkAvailable{false};
+    bool temperatureAvailable{false};
+    bool batteryAvailable{false};
 };
 
 } // namespace srm

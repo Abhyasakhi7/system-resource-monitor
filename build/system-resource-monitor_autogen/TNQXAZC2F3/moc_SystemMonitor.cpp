@@ -53,6 +53,8 @@ template <> constexpr inline auto srm::SystemMonitor::qt_create_metaobjectdata<q
         "memory",
         "disk",
         "network",
+        "temperature",
+        "battery",
         "onTimeout"
     };
 
@@ -72,11 +74,12 @@ template <> constexpr inline auto srm::SystemMonitor::qt_create_metaobjectdata<q
             { QMetaType::Int, 9 },
         }}),
         // Slot 'setCollectorEnabled'
-        QtMocHelpers::SlotData<void(bool, bool, bool, bool)>(10, 2, QMC::AccessPublic, QMetaType::Void, {{
+        QtMocHelpers::SlotData<void(bool, bool, bool, bool, bool, bool)>(10, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::Bool, 11 }, { QMetaType::Bool, 12 }, { QMetaType::Bool, 13 }, { QMetaType::Bool, 14 },
+            { QMetaType::Bool, 15 }, { QMetaType::Bool, 16 },
         }}),
         // Slot 'onTimeout'
-        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -105,7 +108,7 @@ void srm::SystemMonitor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         case 2: _t->start(); break;
         case 3: _t->stop(); break;
         case 4: _t->setInterval((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 5: _t->setCollectorEnabled((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[4]))); break;
+        case 5: _t->setCollectorEnabled((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[4])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[5])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[6]))); break;
         case 6: _t->onTimeout(); break;
         default: ;
         }

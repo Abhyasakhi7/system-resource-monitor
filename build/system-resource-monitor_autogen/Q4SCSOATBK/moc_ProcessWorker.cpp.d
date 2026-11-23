@@ -1,8 +1,8 @@
-/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/Q4SCSOATBK/moc_ProcessWorker.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/process/ProcessWorker.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/moc_predefs.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/core/Metrics.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/process/ProcessInfo.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/process/ProcessService.h \
+/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/Q4SCSOATBK/moc_ProcessWorker.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/process/ProcessWorker.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/moc_predefs.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/core/Metrics.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/process/ProcessInfo.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/process/ProcessService.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

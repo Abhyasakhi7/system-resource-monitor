@@ -5,6 +5,8 @@
 #include "monitors/DiskMonitor.h"
 #include "monitors/MemoryMonitor.h"
 #include "monitors/NetworkMonitor.h"
+#include "monitors/BatteryMonitor.h"
+#include "monitors/TemperatureMonitor.h"
 
 #include <string>
 
@@ -15,6 +17,9 @@ struct CollectorPaths {
     std::string meminfoPath{"/proc/meminfo"};
     std::string diskstatsPath{"/proc/diskstats"};
     std::string netDevPath{"/proc/net/dev"};
+    std::string thermalRoot{"/sys/class/thermal"};
+    std::string hwmonRoot{"/sys/class/hwmon"};
+    std::string powerSupplyRoot{"/sys/class/power_supply"};
 };
 
 struct CollectorConfig {
@@ -22,6 +27,8 @@ struct CollectorConfig {
     bool memory{true};
     bool disk{true};
     bool network{true};
+    bool temperature{true};
+    bool battery{true};
 };
 
 class DataCollector {
@@ -39,6 +46,8 @@ private:
     MemoryMonitor memory_;
     DiskMonitor disk_;
     NetworkMonitor network_;
+    TemperatureMonitor temperature_;
+    BatteryMonitor battery_;
     CollectorConfig config_;
 };
 

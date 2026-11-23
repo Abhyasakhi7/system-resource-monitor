@@ -34,7 +34,8 @@ QString defaultValue(const std::string& key) {
         return QStringLiteral("bytes");
     }
     if (key == "collector_cpu" || key == "collector_memory" || key == "collector_disk" ||
-        key == "collector_network") {
+        key == "collector_network" || key == "collector_temperature" ||
+        key == "collector_battery") {
         return QStringLiteral("true");
     }
     return QString();
@@ -132,6 +133,14 @@ bool ConfigManager::collectorNetwork() const {
     return boolSetting("collector_network", true);
 }
 
+bool ConfigManager::collectorTemperature() const {
+    return boolSetting("collector_temperature", true);
+}
+
+bool ConfigManager::collectorBattery() const {
+    return boolSetting("collector_battery", true);
+}
+
 void ConfigManager::writeSetting(const QString& key, const QString& value) {
     values_[key.toStdString()] = value.toStdString();
     if (database_ != nullptr) {
@@ -202,6 +211,18 @@ void ConfigManager::setCollectorNetwork(bool value) {
     writeSetting(QStringLiteral("collector_network"), value ? QStringLiteral("true")
                                                             : QStringLiteral("false"));
     emit collectorNetworkChanged(value);
+}
+
+void ConfigManager::setCollectorTemperature(bool value) {
+    writeSetting(QStringLiteral("collector_temperature"), value ? QStringLiteral("true")
+                                                                : QStringLiteral("false"));
+    emit collectorTemperatureChanged(value);
+}
+
+void ConfigManager::setCollectorBattery(bool value) {
+    writeSetting(QStringLiteral("collector_battery"), value ? QStringLiteral("true")
+                                                            : QStringLiteral("false"));
+    emit collectorBatteryChanged(value);
 }
 
 void ConfigManager::onAllSettings(const QVector<AppSetting>& settings) {

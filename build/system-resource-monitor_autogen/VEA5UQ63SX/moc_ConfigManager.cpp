@@ -53,6 +53,8 @@ template <> constexpr inline auto srm::ConfigManager::qt_create_metaobjectdata<q
         "collectorMemoryChanged",
         "collectorDiskChanged",
         "collectorNetworkChanged",
+        "collectorTemperatureChanged",
+        "collectorBatteryChanged",
         "onAllSettings",
         "QList<AppSetting>",
         "settings",
@@ -103,13 +105,21 @@ template <> constexpr inline auto srm::ConfigManager::qt_create_metaobjectdata<q
         QtMocHelpers::SignalData<void(bool)>(13, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::Bool, 4 },
         }}),
+        // Signal 'collectorTemperatureChanged'
+        QtMocHelpers::SignalData<void(bool)>(14, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Bool, 4 },
+        }}),
+        // Signal 'collectorBatteryChanged'
+        QtMocHelpers::SignalData<void(bool)>(15, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Bool, 4 },
+        }}),
         // Slot 'onAllSettings'
-        QtMocHelpers::SlotData<void(const QVector<AppSetting> &)>(14, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { 0x80000000 | 15, 16 },
+        QtMocHelpers::SlotData<void(const QVector<AppSetting> &)>(16, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 17, 18 },
         }}),
         // Slot 'onSettingReady'
-        QtMocHelpers::SlotData<void(const QString &, const QString &)>(17, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::QString, 18 }, { QMetaType::QString, 4 },
+        QtMocHelpers::SlotData<void(const QString &, const QString &)>(19, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::QString, 20 }, { QMetaType::QString, 4 },
         }}),
     };
     QtMocHelpers::UintData qt_properties {
@@ -145,8 +155,10 @@ void srm::ConfigManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         case 8: _t->collectorMemoryChanged((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
         case 9: _t->collectorDiskChanged((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
         case 10: _t->collectorNetworkChanged((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
-        case 11: _t->onAllSettings((*reinterpret_cast<std::add_pointer_t<QList<AppSetting>>>(_a[1]))); break;
-        case 12: _t->onSettingReady((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
+        case 11: _t->collectorTemperatureChanged((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
+        case 12: _t->collectorBatteryChanged((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
+        case 13: _t->onAllSettings((*reinterpret_cast<std::add_pointer_t<QList<AppSetting>>>(_a[1]))); break;
+        case 14: _t->onSettingReady((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
         default: ;
         }
     }
@@ -173,6 +185,10 @@ void srm::ConfigManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
             return;
         if (QtMocHelpers::indexOfMethod<void (ConfigManager::*)(bool )>(_a, &ConfigManager::collectorNetworkChanged, 10))
             return;
+        if (QtMocHelpers::indexOfMethod<void (ConfigManager::*)(bool )>(_a, &ConfigManager::collectorTemperatureChanged, 11))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (ConfigManager::*)(bool )>(_a, &ConfigManager::collectorBatteryChanged, 12))
+            return;
     }
 }
 
@@ -195,14 +211,14 @@ int srm::ConfigManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 13)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 13;
+        _id -= 15;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 13)
+        if (_id < 15)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 13;
+        _id -= 15;
     }
     return _id;
 }
@@ -271,5 +287,17 @@ void srm::ConfigManager::collectorDiskChanged(bool _t1)
 void srm::ConfigManager::collectorNetworkChanged(bool _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 10, nullptr, _t1);
+}
+
+// SIGNAL 11
+void srm::ConfigManager::collectorTemperatureChanged(bool _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 11, nullptr, _t1);
+}
+
+// SIGNAL 12
+void srm::ConfigManager::collectorBatteryChanged(bool _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 12, nullptr, _t1);
 }
 QT_WARNING_POP

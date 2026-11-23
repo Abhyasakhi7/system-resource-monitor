@@ -32,6 +32,8 @@ private:
     MetricCard* memoryCard_{nullptr};
     MetricCard* diskCard_{nullptr};
     MetricCard* networkCard_{nullptr};
+    MetricCard* temperatureCard_{nullptr};
+    MetricCard* batteryCard_{nullptr};
     QChartView* cpuChartView_{nullptr};
     QChartView* memoryChartView_{nullptr};
     QLineSeries* cpuSeries_{nullptr};

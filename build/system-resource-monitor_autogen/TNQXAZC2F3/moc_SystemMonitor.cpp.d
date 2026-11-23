@@ -1,11 +1,13 @@
-/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/TNQXAZC2F3/moc_SystemMonitor.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/core/SystemMonitor.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/moc_predefs.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/core/DataCollector.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/core/Metrics.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/monitors/CpuMonitor.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/monitors/DiskMonitor.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/monitors/MemoryMonitor.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/monitors/NetworkMonitor.h \
+/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/TNQXAZC2F3/moc_SystemMonitor.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/core/SystemMonitor.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/moc_predefs.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/core/DataCollector.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/core/Metrics.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/monitors/BatteryMonitor.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/monitors/CpuMonitor.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/monitors/DiskMonitor.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/monitors/MemoryMonitor.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/monitors/NetworkMonitor.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/monitors/TemperatureMonitor.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

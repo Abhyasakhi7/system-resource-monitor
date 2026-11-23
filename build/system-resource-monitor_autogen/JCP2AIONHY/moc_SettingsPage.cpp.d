@@ -1,5 +1,5 @@
-/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/JCP2AIONHY/moc_SettingsPage.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/ui/SettingsPage.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/moc_predefs.h \
+/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/JCP2AIONHY/moc_SettingsPage.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/ui/SettingsPage.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

@@ -40,10 +40,14 @@ SettingsPage::SettingsPage(ConfigManager* config, HistoryService* history,
     memoryCheck_ = new QCheckBox(QStringLiteral("Memory"), monitoringTab);
     diskCheck_ = new QCheckBox(QStringLiteral("Disk"), monitoringTab);
     networkCheck_ = new QCheckBox(QStringLiteral("Network"), monitoringTab);
+    temperatureCheck_ = new QCheckBox(QStringLiteral("Temperature"), monitoringTab);
+    batteryCheck_ = new QCheckBox(QStringLiteral("Battery"), monitoringTab);
     monitoringForm->addRow(QStringLiteral("Collectors"), cpuCheck_);
     monitoringForm->addRow(QString(), memoryCheck_);
     monitoringForm->addRow(QString(), diskCheck_);
     monitoringForm->addRow(QString(), networkCheck_);
+    monitoringForm->addRow(QString(), temperatureCheck_);
+    monitoringForm->addRow(QString(), batteryCheck_);
 
     historyCheck_ = new QCheckBox(QStringLiteral("Store metric history"), monitoringTab);
     monitoringForm->addRow(QStringLiteral("History"), historyCheck_);
@@ -148,6 +152,16 @@ SettingsPage::SettingsPage(ConfigManager* config, HistoryService* history,
             config_->setCollectorNetwork(checked);
         }
     });
+    connect(temperatureCheck_, &QCheckBox::toggled, this, [this](bool checked) {
+        if (config_ != nullptr) {
+            config_->setCollectorTemperature(checked);
+        }
+    });
+    connect(batteryCheck_, &QCheckBox::toggled, this, [this](bool checked) {
+        if (config_ != nullptr) {
+            config_->setCollectorBattery(checked);
+        }
+    });
     connect(historyCheck_, &QCheckBox::toggled, this, [this](bool checked) {
         if (config_ != nullptr) {
             config_->setHistoryEnabled(checked);
@@ -201,6 +215,8 @@ void SettingsPage::applyInitialValues() {
     const QSignalBlocker memoryBlocker(memoryCheck_);
     const QSignalBlocker diskBlocker(diskCheck_);
     const QSignalBlocker networkBlocker(networkCheck_);
+    const QSignalBlocker temperatureBlocker(temperatureCheck_);
+    const QSignalBlocker batteryBlocker(batteryCheck_);
     const QSignalBlocker historyBlocker(historyCheck_);
     const QSignalBlocker historyIntervalBlocker(historyIntervalSpin_);
     const QSignalBlocker retentionBlocker(retentionSpin_);
@@ -212,6 +228,8 @@ void SettingsPage::applyInitialValues() {
     memoryCheck_->setChecked(config_->collectorMemory());
     diskCheck_->setChecked(config_->collectorDisk());
     networkCheck_->setChecked(config_->collectorNetwork());
+    temperatureCheck_->setChecked(config_->collectorTemperature());
+    batteryCheck_->setChecked(config_->collectorBattery());
     historyCheck_->setChecked(config_->historyEnabled());
     historyIntervalSpin_->setValue(config_->historySampleIntervalMs());
     retentionSpin_->setValue(config_->retentionDays());

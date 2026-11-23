@@ -1,7 +1,7 @@
-/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/CRGL2FGSXR/moc_DatabaseManager.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/database/DatabaseManager.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/moc_predefs.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/database/DatabaseRepository.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/database/DatabaseTypes.h \
+/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/CRGL2FGSXR/moc_DatabaseManager.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/database/DatabaseManager.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/moc_predefs.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/database/DatabaseRepository.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/database/DatabaseTypes.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

@@ -1,10 +1,10 @@
-/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/VEA5UQ63SX/moc_HistoryService.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/services/HistoryService.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/system-resource-monitor_autogen/moc_predefs.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/core/Metrics.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/database/DatabaseManager.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/database/DatabaseRepository.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/database/DatabaseTypes.h \
-  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/include/services/ConfigManager.h \
+/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/VEA5UQ63SX/moc_HistoryService.cpp: /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/services/HistoryService.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/system-resource-monitor_autogen/moc_predefs.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/core/Metrics.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/database/DatabaseManager.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/database/DatabaseRepository.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/database/DatabaseTypes.h \
+  /home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/include/services/ConfigManager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

@@ -7,7 +7,7 @@
 #include <QtCharts/QLineSeries>
 
 #include <QColor>
-#include <QHBoxLayout>
+#include <QGridLayout>
 #include <QVBoxLayout>
 
 namespace srm {
@@ -18,18 +18,22 @@ Dashboard::Dashboard(QWidget* parent)
     layout->setContentsMargins(16, 16, 16, 16);
     layout->setSpacing(12);
 
-    auto* cardsLayout = new QHBoxLayout();
+    auto* cardsLayout = new QGridLayout();
     cardsLayout->setSpacing(12);
 
     cpuCard_ = new MetricCard(QStringLiteral("CPU"), this);
     memoryCard_ = new MetricCard(QStringLiteral("Memory"), this);
     diskCard_ = new MetricCard(QStringLiteral("Disk"), this);
     networkCard_ = new MetricCard(QStringLiteral("Network"), this);
+    temperatureCard_ = new MetricCard(QStringLiteral("Temperature"), this);
+    batteryCard_ = new MetricCard(QStringLiteral("Battery"), this);
 
-    cardsLayout->addWidget(cpuCard_);
-    cardsLayout->addWidget(memoryCard_);
-    cardsLayout->addWidget(diskCard_);
-    cardsLayout->addWidget(networkCard_);
+    cardsLayout->addWidget(cpuCard_, 0, 0);
+    cardsLayout->addWidget(memoryCard_, 0, 1);
+    cardsLayout->addWidget(diskCard_, 0, 2);
+    cardsLayout->addWidget(networkCard_, 1, 0);
+    cardsLayout->addWidget(temperatureCard_, 1, 1);
+    cardsLayout->addWidget(batteryCard_, 1, 2);
     layout->addLayout(cardsLayout);
 
     auto* chartsLayout = new QHBoxLayout();
@@ -138,6 +142,45 @@ void Dashboard::updateSnapshot(const SystemMetricsSnapshot& snapshot) {
     } else {
         networkCard_->setValue(QStringLiteral("—"));
         networkCard_->setSubtitle(QStringLiteral("Unavailable"));
+    }
+
+    if (snapshot.temperatureAvailable && !snapshot.temperature.sensors.empty()) {
+        const TemperatureSensorMetrics& sensor = snapshot.temperature.sensors.front();
+        if (sensor.celsius.has_value()) {
+            temperatureCard_->setValue(ui::formatCelsius(*sensor.celsius));
+        } else {
+            temperatureCard_->setValue(QStringLiteral("—"));
+        }
+        QString subtitle = QString::fromStdString(sensor.name);
+        if (snapshot.temperature.sensors.size() > 1) {
+            subtitle += QStringLiteral(" · %1 sensors")
+                            .arg(static_cast<int>(snapshot.temperature.sensors.size()));
+        }
+        temperatureCard_->setSubtitle(subtitle);
+    } else {
+        temperatureCard_->setValue(QStringLiteral("—"));
+        temperatureCard_->setSubtitle(
+            snapshot.temperatureAvailable ? QStringLiteral("No sensors")
+                                          : QStringLiteral("Unavailable"));
+    }
+
+    if (snapshot.batteryAvailable) {
+        if (snapshot.battery.capacityPercent.has_value()) {
+            batteryCard_->setValue(
+                ui::formatPercent(static_cast<double>(*snapshot.battery.capacityPercent)));
+        } else {
+            batteryCard_->setValue(QStringLiteral("—"));
+        }
+        QString subtitle = QString::fromStdString(snapshot.battery.name);
+        if (!snapshot.battery.status.empty()) {
+            subtitle += QStringLiteral(" · ") + QString::fromStdString(snapshot.battery.status);
+        }
+        batteryCard_->setSubtitle(subtitle);
+    } else {
+        batteryCard_->setValue(QStringLiteral("—"));
+        batteryCard_->setSubtitle(
+            snapshot.batteryAvailable ? QStringLiteral("No battery")
+                                      : QStringLiteral("Unavailable"));
     }
 }
 

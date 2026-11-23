@@ -21,7 +21,8 @@ public slots:
     void start();
     void stop();
     void setInterval(int intervalMs);
-    void setCollectorEnabled(bool cpu, bool memory, bool disk, bool network);
+    void setCollectorEnabled(bool cpu, bool memory, bool disk, bool network, bool temperature,
+                             bool battery);
 
 signals:
     void snapshotReady(const srm::SystemMetricsSnapshot& snapshot);

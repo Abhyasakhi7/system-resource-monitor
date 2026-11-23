@@ -33,12 +33,15 @@ void SystemMonitor::setInterval(int intervalMs) {
     }
 }
 
-void SystemMonitor::setCollectorEnabled(bool cpu, bool memory, bool disk, bool network) {
+void SystemMonitor::setCollectorEnabled(bool cpu, bool memory, bool disk, bool network,
+                                        bool temperature, bool battery) {
     CollectorConfig config;
     config.cpu = cpu;
     config.memory = memory;
     config.disk = disk;
     config.network = network;
+    config.temperature = temperature;
+    config.battery = battery;
     collector_.setConfig(config);
 }
 

@@ -49,4 +49,11 @@ QString formatPercent(double value) {
     return QString::number(value, 'f', 1) + QStringLiteral(" %");
 }
 
+QString formatCelsius(double celsius) {
+    if (!std::isfinite(celsius)) {
+        return QStringLiteral("—");
+    }
+    return QString::number(celsius, 'f', 1) + QStringLiteral(" °C");
+}
+
 } // namespace srm::ui

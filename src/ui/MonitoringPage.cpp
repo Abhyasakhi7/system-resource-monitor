@@ -7,6 +7,7 @@
 
 #include <QColor>
 #include <QGridLayout>
+#include <QLabel>
 
 #include <cmath>
 
@@ -14,7 +15,8 @@ namespace srm {
 
 MonitoringPage::MonitoringPage(QWidget* parent)
     : QWidget(parent), cpuHistory_(kMaxSamples), memoryHistory_(kMaxSamples),
-      diskHistory_(kMaxSamples), networkHistory_(kMaxSamples) {
+      diskHistory_(kMaxSamples), networkHistory_(kMaxSamples),
+      temperatureHistory_(kMaxSamples), batteryHistory_(kMaxSamples) {
     auto* layout = new QGridLayout(this);
     layout->setContentsMargins(16, 16, 16, 16);
     layout->setSpacing(12);
@@ -27,13 +29,25 @@ MonitoringPage::MonitoringPage(QWidget* parent)
     diskChart_ = ui::createLineChart(diskSeries_, QStringLiteral("Disk Read"), 0.0, 100.0,
                                     static_cast<int>(kMaxSamples), QColor("#e0a04f"));
     networkChart_ = ui::createLineChart(networkSeries_, QStringLiteral("Network Download"),
-                                       0.0, 100.0, static_cast<int>(kMaxSamples),
-                                       QColor("#b06fd0"));
+                                        0.0, 100.0, static_cast<int>(kMaxSamples),
+                                        QColor("#b06fd0"));
+    temperatureChart_ = ui::createLineChart(temperatureSeries_, QStringLiteral("Temperature"),
+                                            0.0, 100.0, static_cast<int>(kMaxSamples),
+                                            QColor("#e07f6f"));
+    batteryChart_ = ui::createLineChart(batterySeries_, QStringLiteral("Battery Level"), 0.0,
+                                        100.0, static_cast<int>(kMaxSamples),
+                                        QColor("#8fd06f"));
 
     layout->addWidget(cpuChart_, 0, 0);
     layout->addWidget(memoryChart_, 0, 1);
     layout->addWidget(diskChart_, 1, 0);
     layout->addWidget(networkChart_, 1, 1);
+    layout->addWidget(temperatureChart_, 2, 0);
+    layout->addWidget(batteryChart_, 2, 1);
+
+    sensorStatusLabel_ = new QLabel(this);
+    sensorStatusLabel_->setStyleSheet(QStringLiteral("color:#9aa0a6;"));
+    layout->addWidget(sensorStatusLabel_, 3, 0, 1, 2);
 }
 
 void MonitoringPage::setNetworkUnit(const QString& unit) {
@@ -69,6 +83,22 @@ void MonitoringPage::updateAxis(QChartView* view, double latest) {
     axis->setRange(0.0, maximum);
 }
 
+void MonitoringPage::updateSensorStatus(const SystemMetricsSnapshot& snapshot) {
+    if (sensorStatusLabel_ == nullptr) {
+        return;
+    }
+
+    const QString temperature =
+        snapshot.temperatureAvailable
+            ? (snapshot.temperature.sensors.empty() ? QStringLiteral("no sensors")
+                                                    : QStringLiteral("available"))
+            : QStringLiteral("unavailable");
+    const QString battery =
+        snapshot.batteryAvailable ? QStringLiteral("available") : QStringLiteral("unavailable");
+    sensorStatusLabel_->setText(QStringLiteral("Temperature: %1 · Battery: %2")
+                                    .arg(temperature, battery));
+}
+
 void MonitoringPage::updateSnapshot(const SystemMetricsSnapshot& snapshot) {
     if (snapshot.cpuAvailable && snapshot.cpu.totalUsagePercent.has_value()) {
         appendSample(cpuSeries_, cpuHistory_, *snapshot.cpu.totalUsagePercent);
@@ -95,6 +125,20 @@ void MonitoringPage::updateSnapshot(const SystemMetricsSnapshot& snapshot) {
         appendSample(networkSeries_, networkHistory_, value);
         updateAxis(networkChart_, value);
     }
+
+    if (snapshot.temperatureAvailable && !snapshot.temperature.sensors.empty() &&
+        snapshot.temperature.sensors.front().celsius.has_value()) {
+        const double value = *snapshot.temperature.sensors.front().celsius;
+        appendSample(temperatureSeries_, temperatureHistory_, value);
+        updateAxis(temperatureChart_, value);
+    }
+
+    if (snapshot.batteryAvailable && snapshot.battery.capacityPercent.has_value()) {
+        appendSample(batterySeries_, batteryHistory_,
+                     static_cast<double>(*snapshot.battery.capacityPercent));
+    }
+
+    updateSensorStatus(snapshot);
 }
 
 } // namespace srm

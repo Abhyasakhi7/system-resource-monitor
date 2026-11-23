@@ -28,6 +28,8 @@ add_executable(system-resource-monitor
     src/monitors/MemoryMonitor.cpp
     src/monitors/DiskMonitor.cpp
     src/monitors/NetworkMonitor.cpp
+    src/monitors/TemperatureMonitor.cpp
+    src/monitors/BatteryMonitor.cpp
     src/database/DatabaseRepository.cpp
     src/database/DatabaseManager.cpp
     src/hardware/HardwareService.cpp
@@ -58,6 +60,8 @@ add_executable(system-resource-monitor
     include/monitors/MemoryMonitor.h
     include/monitors/DiskMonitor.h
     include/monitors/NetworkMonitor.h
+    include/monitors/TemperatureMonitor.h
+    include/monitors/BatteryMonitor.h
     include/database/DatabaseTypes.h
     include/database/DatabaseRepository.h
     include/database/DatabaseManager.h
@@ -93,6 +97,7 @@ add_executable(unit_tests
     tests/test_hardware.cpp
     tests/test_process.cpp
     tests/test_database.cpp
+    tests/test_sensors.cpp
     src/core/FileUtil.cpp
     src/core/MetricMath.cpp
     src/core/MetricHistory.cpp
@@ -100,6 +105,8 @@ add_executable(unit_tests
     src/monitors/MemoryMonitor.cpp
     src/monitors/DiskMonitor.cpp
     src/monitors/NetworkMonitor.cpp
+    src/monitors/TemperatureMonitor.cpp
+    src/monitors/BatteryMonitor.cpp
     src/hardware/HardwareService.cpp
     src/process/ProcessInfo.cpp
     src/database/DatabaseRepository.cpp

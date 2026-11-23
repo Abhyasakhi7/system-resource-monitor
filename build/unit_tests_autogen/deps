@@ -1,21 +1,24 @@
 unit_tests_autogen/timestamp: \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/CMakeLists.txt \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/CMakeFiles/4.5.0/CMakeCXXCompiler.cmake \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/build/CMakeFiles/4.5.0/CMakeSystem.cmake \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/core/FileUtil.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/core/MetricHistory.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/core/MetricMath.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/database/DatabaseRepository.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/hardware/HardwareService.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/monitors/CpuMonitor.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/monitors/DiskMonitor.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/monitors/MemoryMonitor.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/monitors/NetworkMonitor.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/src/process/ProcessInfo.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/tests/test_database.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/tests/test_hardware.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/tests/test_parsers.cpp \
-	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/tests/test_process.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/CMakeLists.txt \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/CMakeFiles/4.5.0/CMakeCXXCompiler.cmake \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/build/CMakeFiles/4.5.0/CMakeSystem.cmake \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/core/FileUtil.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/core/MetricHistory.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/core/MetricMath.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/database/DatabaseRepository.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/hardware/HardwareService.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/monitors/BatteryMonitor.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/monitors/CpuMonitor.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/monitors/DiskMonitor.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/monitors/MemoryMonitor.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/monitors/NetworkMonitor.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/monitors/TemperatureMonitor.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/src/process/ProcessInfo.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/tests/test_database.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/tests/test_hardware.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/tests/test_parsers.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/tests/test_process.cpp \
+	/home/rafif/Documents/Personal\ Project/System\ Resource\ Monitor/system-resource-monitor/tests/test_sensors.cpp \
 	/usr/lib/cmake/GTest/GTestConfig.cmake \
 	/usr/lib/cmake/GTest/GTestConfigVersion.cmake \
 	/usr/lib/cmake/GTest/GTestTargets-none.cmake \

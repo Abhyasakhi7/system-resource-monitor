@@ -109,7 +109,7 @@ int main(int argc, char* argv[]) {
                      });
 
     srm::MainWindow window(&services);
-    window.resize(1200, 760);
+    window.resize(1200, 880);
     window.show();
 
     return app.exec();

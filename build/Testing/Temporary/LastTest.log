@@ -1,14 +1,14 @@
-Start testing: Nov 22 17:54 WIB
+Start testing: Nov 23 13:59 WIB
 ----------------------------------------------------------
 1/1 Testing: unit_tests
 1/1 Test: unit_tests
-Command: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests"
-Directory: /home/rafif/Documents/Personal Project/System Resource Monitor/build
-"unit_tests" start time: Nov 22 17:54 WIB
+Command: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests"
+Directory: /home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build
+"unit_tests" start time: Nov 23 13:59 WIB
 Output:
 ----------------------------------------------------------
 Running main() from /usr/src/debug/gtest/googletest-1.18.0/googletest/src/gtest_main.cc
-[==========] Running 25 tests from 9 test suites.
+[==========] Running 34 tests from 12 test suites.
 [----------] Global test environment set-up.
 [----------] 3 tests from CpuParser
 [ RUN      ] CpuParser.ParsesAggregateAndPerCore
@@ -76,26 +76,53 @@ Running main() from /usr/src/debug/gtest/googletest-1.18.0/googletest/src/gtest_
 
 [----------] 5 tests from DatabaseTest
 [ RUN      ] DatabaseTest.InsertsQueriesAndComputesStats
-[       OK ] DatabaseTest.InsertsQueriesAndComputesStats (3 ms)
+[       OK ] DatabaseTest.InsertsQueriesAndComputesStats (1 ms)
 [ RUN      ] DatabaseTest.RetentionPruneRemovesOldSamples
 [       OK ] DatabaseTest.RetentionPruneRemovesOldSamples (1 ms)
 [ RUN      ] DatabaseTest.ClearHistoryRemovesAllSamples
-[       OK ] DatabaseTest.ClearHistoryRemovesAllSamples (1 ms)
+[       OK ] DatabaseTest.ClearHistoryRemovesAllSamples (0 ms)
 [ RUN      ] DatabaseTest.SettingsRoundTrip
-[       OK ] DatabaseTest.SettingsRoundTrip (1 ms)
+[       OK ] DatabaseTest.SettingsRoundTrip (0 ms)
 [ RUN      ] DatabaseTest.ExportsCsvAndJson
-[       OK ] DatabaseTest.ExportsCsvAndJson (2 ms)
-[----------] 5 tests from DatabaseTest (10 ms total)
+[       OK ] DatabaseTest.ExportsCsvAndJson (0 ms)
+[----------] 5 tests from DatabaseTest (5 ms total)
+
+[----------] 4 tests from SensorParser
+[ RUN      ] SensorParser.ParsesTemperatureMillidegrees
+[       OK ] SensorParser.ParsesTemperatureMillidegrees (0 ms)
+[ RUN      ] SensorParser.RejectsInvalidTemperature
+[       OK ] SensorParser.RejectsInvalidTemperature (0 ms)
+[ RUN      ] SensorParser.ParsesBatteryCapacity
+[       OK ] SensorParser.ParsesBatteryCapacity (0 ms)
+[ RUN      ] SensorParser.CalculatesChargePercent
+[       OK ] SensorParser.CalculatesChargePercent (0 ms)
+[----------] 4 tests from SensorParser (0 ms total)
+
+[----------] 2 tests from TemperatureMonitor
+[ RUN      ] TemperatureMonitor.DiscoversThermalZonesAndHwmonSensors
+[       OK ] TemperatureMonitor.DiscoversThermalZonesAndHwmonSensors (0 ms)
+[ RUN      ] TemperatureMonitor.ReportsUnavailableWithoutSensors
+[       OK ] TemperatureMonitor.ReportsUnavailableWithoutSensors (0 ms)
+[----------] 2 tests from TemperatureMonitor (0 ms total)
+
+[----------] 3 tests from BatteryMonitor
+[ RUN      ] BatteryMonitor.ReadsCapacityStatusAndHealth
+[       OK ] BatteryMonitor.ReadsCapacityStatusAndHealth (0 ms)
+[ RUN      ] BatteryMonitor.FallsBackToEnergyCounters
+[       OK ] BatteryMonitor.FallsBackToEnergyCounters (0 ms)
+[ RUN      ] BatteryMonitor.ReportsUnavailableWithoutBattery
+[       OK ] BatteryMonitor.ReportsUnavailableWithoutBattery (0 ms)
+[----------] 3 tests from BatteryMonitor (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 25 tests from 9 test suites ran. (11 ms total)
-[  PASSED  ] 25 tests.
+[==========] 34 tests from 12 test suites ran. (7 ms total)
+[  PASSED  ] 34 tests.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"unit_tests" end time: Nov 22 17:54 WIB
+"unit_tests" end time: Nov 23 13:59 WIB
 "unit_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 22 17:54 WIB
+End testing: Nov 23 13:59 WIB

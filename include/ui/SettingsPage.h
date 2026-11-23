@@ -37,6 +37,8 @@ private:
     QCheckBox* memoryCheck_{nullptr};
     QCheckBox* diskCheck_{nullptr};
     QCheckBox* networkCheck_{nullptr};
+    QCheckBox* temperatureCheck_{nullptr};
+    QCheckBox* batteryCheck_{nullptr};
     QCheckBox* historyCheck_{nullptr};
     QSpinBox* historyIntervalSpin_{nullptr};
     QComboBox* themeCombo_{nullptr};

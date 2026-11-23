@@ -28,6 +28,8 @@ public:
     bool collectorMemory() const;
     bool collectorDisk() const;
     bool collectorNetwork() const;
+    bool collectorTemperature() const;
+    bool collectorBattery() const;
 
     void setIntervalMs(int value);
     void setHistoryEnabled(bool value);
@@ -39,6 +41,8 @@ public:
     void setCollectorMemory(bool value);
     void setCollectorDisk(bool value);
     void setCollectorNetwork(bool value);
+    void setCollectorTemperature(bool value);
+    void setCollectorBattery(bool value);
 
 signals:
     void loaded();
@@ -52,6 +56,8 @@ signals:
     void collectorMemoryChanged(bool value);
     void collectorDiskChanged(bool value);
     void collectorNetworkChanged(bool value);
+    void collectorTemperatureChanged(bool value);
+    void collectorBatteryChanged(bool value);
 
 private slots:
     void onAllSettings(const QVector<AppSetting>& settings);

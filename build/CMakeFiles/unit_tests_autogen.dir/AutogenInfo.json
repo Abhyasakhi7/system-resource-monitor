@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen",
-	"CMAKE_BINARY_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor",
+	"BUILD_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests_autogen",
+	"CMAKE_BINARY_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/rafif/Documents/Personal Project/System Resource Monitor/CMakeLists.txt",
-		"/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/4.5.0/CMakeSystem.cmake",
+		"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/CMakeLists.txt",
+		"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/4.5.0/CMakeSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake",
-		"/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/4.5.0/CMakeCXXCompiler.cmake",
+		"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/4.5.0/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -574,15 +574,15 @@
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor",
+	"CMAKE_SOURCE_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor",
 	"CROSS_CONFIG" : false,
 	"CXX_MODULE_UNITS" : [],
-	"DEP_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/deps",
+	"DEP_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "unit_tests_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "GTEST_LINKED_AS_SHARED_LIBRARY=1", "QT_CORE_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -593,7 +593,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/rafif/Documents/Personal Project/System Resource Monitor/include",
+		"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/include",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -624,89 +624,104 @@
 		"-E",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build/unit_tests_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/unit_tests_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/rafif/Documents/Personal Project/System Resource Monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp"
+		"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/system-resource-monitor_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/unit_tests_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/unit_tests_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/unit_tests_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/unit_tests_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/core/FileUtil.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/core/FileUtil.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/core/MetricHistory.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/core/MetricHistory.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/core/MetricMath.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/core/MetricMath.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/database/DatabaseRepository.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/database/DatabaseRepository.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/hardware/HardwareService.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/hardware/HardwareService.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/monitors/CpuMonitor.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/monitors/BatteryMonitor.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/monitors/DiskMonitor.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/monitors/CpuMonitor.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/monitors/MemoryMonitor.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/monitors/DiskMonitor.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/monitors/NetworkMonitor.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/monitors/MemoryMonitor.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/src/process/ProcessInfo.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/monitors/NetworkMonitor.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/tests/test_database.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/monitors/TemperatureMonitor.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/tests/test_hardware.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/src/process/ProcessInfo.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/tests/test_parsers.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/tests/test_database.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/rafif/Documents/Personal Project/System Resource Monitor/tests/test_process.cpp",
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/tests/test_hardware.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/tests/test_parsers.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/tests/test_process.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/tests/test_sensors.cpp",
 			"Mu",
 			null
 		]

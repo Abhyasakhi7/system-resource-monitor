@@ -215,7 +215,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/4.5.0/CompilerIdCXX/a.out
+        /home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/4.5.0/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -765,8 +765,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-kGq8LR"
-      binary: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-kGq8LR"
+      source: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-EqqCgi"
+      binary: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-EqqCgi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -777,10 +777,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-kGq8LR'
+        Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-EqqCgi'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_d5b17
-        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_67d70
+        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -788,8 +788,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20260810 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d5b17.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d5b17.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc9d4RRM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_67d70.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_67d70.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8dXusk.s
         GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -806,13 +806,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 48ed26afbfd8a1151cb01c1770d6f643
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d5b17.dir/'
-         as -v --64 -o CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9d4RRM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_67d70.dir/'
+         as -v --64 -o CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8dXusk.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d5b17   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_67d70   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -823,12 +823,12 @@ events:
         gcc version 16.2.1 20260810 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5b17' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d5b17.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQGRp3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d5b17 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67d70' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_67d70.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYAHwDO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67d70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.2.1 20260810
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQGRp3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d5b17 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYAHwDO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67d70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5b17' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d5b17.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67d70' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_67d70.'
         
       exitCode: 0
   -
@@ -867,10 +867,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)(\\.exe)?"?( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-kGq8LR']
+        ignore line: [Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-EqqCgi']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_d5b17]
-        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_67d70]
+        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -878,8 +878,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d5b17.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d5b17.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc9d4RRM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_67d70.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_67d70.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8dXusk.s]
         ignore line: [GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -896,13 +896,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 48ed26afbfd8a1151cb01c1770d6f643]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d5b17.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9d4RRM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_67d70.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8dXusk.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d5b17   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_67d70   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -913,13 +913,13 @@ events:
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5b17' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d5b17.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQGRp3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d5b17 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67d70' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_67d70.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYAHwDO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67d70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore, skip following value
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> skip value of -plugin
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccNQGRp3.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYAHwDO.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -935,7 +935,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> skip value of -dynamic-linker
           arg [-pie] ==> ignore
           arg [-o] ==> ignore, skip following value
-          arg [cmTC_d5b17] ==> skip value of -o
+          arg [cmTC_67d70] ==> skip value of -o
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -947,7 +947,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -959,9 +959,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.2.1 20260810]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQGRp3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d5b17 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQGRp3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d5b17 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf_x86_64]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQGRp3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d5b17 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d5b17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYAHwDO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67d70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYAHwDO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67d70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf_x86_64]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYAHwDO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67d70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_67d70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf_x86_64
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1005,8 +1005,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-DOVNbI"
-      binary: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-DOVNbI"
+      source: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-ve0yzJ"
+      binary: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-ve0yzJ"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1017,11 +1017,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-DOVNbI'
+        Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-ve0yzJ'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_051a5
-        [1/2] /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++20 -o CMakeFiles/cmTC_051a5.dir/src.cxx.o -c '/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-DOVNbI/src.cxx'
-        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_051a5.dir/src.cxx.o -o cmTC_051a5   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d35f9
+        [1/2] /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++20 -o CMakeFiles/cmTC_d35f9.dir/src.cxx.o -c '/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-ve0yzJ/src.cxx'
+        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_d35f9.dir/src.cxx.o -o cmTC_d35f9   && :
         
       exitCode: 0
   -
@@ -1078,27 +1078,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1299,27 +1299,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1517,27 +1517,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1705,8 +1705,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-ndr8fJ"
-      binary: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-ndr8fJ"
+      source: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-9HuNxQ"
+      binary: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-9HuNxQ"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1717,11 +1717,11 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-ndr8fJ'
+        Change Dir: '/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-9HuNxQ'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_55df5
-        [1/2] /usr/bin/c++ -DHAVE_STDATOMIC  -std=c++20 -o CMakeFiles/cmTC_55df5.dir/src.cxx.o -c '/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/CMakeScratch/TryCompile-ndr8fJ/src.cxx'
-        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_55df5.dir/src.cxx.o -o cmTC_55df5   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_ea330
+        [1/2] /usr/bin/c++ -DHAVE_STDATOMIC  -std=c++20 -o CMakeFiles/cmTC_ea330.dir/src.cxx.o -c '/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/CMakeScratch/TryCompile-9HuNxQ/src.cxx'
+        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_ea330.dir/src.cxx.o -o cmTC_ea330   && :
         
       exitCode: 0
   -
@@ -1777,27 +1777,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3462,27 +3462,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBusTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBusTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbustools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbustools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBusTools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBusTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6dbustools.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6dbustools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3687,27 +3687,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBus.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6DBus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbus.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6dbus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBus.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6DBus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6dbus.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6dbus.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3811,27 +3811,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3927,27 +3927,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4051,27 +4051,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6OpenGLConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6OpenGLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6opengl-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6opengl-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGL.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGL.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6opengl.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6opengl.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGL.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGL.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6opengl.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6opengl.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4175,27 +4175,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6OpenGLWidgetsConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6OpenGLWidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6openglwidgets-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6openglwidgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGLWidgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6OpenGLWidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6openglwidgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6openglwidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGLWidgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6OpenGLWidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6openglwidgets.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6openglwidgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4275,27 +4275,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6ChartsConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6ChartsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6charts-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6charts-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Charts.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Charts.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6charts.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6charts.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Charts.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6Charts.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6charts.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6charts.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4405,27 +4405,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -6363,27 +6363,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/GTestConfig.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/GTestConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/gtest-config.cmake"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/gtest-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/GTest.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/GTest.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/lib/cps/gtest.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/lib/cps/gtest.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/GTest.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/GTest.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/build/CMakeFiles/pkgRedirects/share/cps/gtest.cps"
+        path: "/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/CMakeFiles/pkgRedirects/share/cps/gtest.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -6530,10 +6530,6 @@ events:
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:

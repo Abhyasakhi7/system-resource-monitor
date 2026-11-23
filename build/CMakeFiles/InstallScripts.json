@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/rafif/Documents/Personal Project/System Resource Monitor/build/cmake_install.cmake"
+		"/home/rafif/Documents/Personal Project/System Resource Monitor/system-resource-monitor/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
