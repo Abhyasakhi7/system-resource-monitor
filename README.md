@@ -95,7 +95,3 @@ include/
 src/          implementations
 tests/        GoogleTest unit tests
 ```
-
-## License
-
-No license has been selected yet. See the roadmap (quality and release phase).
